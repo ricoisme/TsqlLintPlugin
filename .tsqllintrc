@@ -1,0 +1,32 @@
+{
+    "rules": {
+        "conditional-begin-end": "error",
+        "cross-database-transaction": "error",
+        "data-compression": "warning",
+        "data-type-length": "error",
+        "disallow-cursors": "warning",
+        "full-text": "error",
+        "information-schema": "error",
+        "keyword-capitalization": "off",
+        "linked-server": "warning",
+        "multi-table-alias": "error",
+        "named-constraint": "error",
+        "non-sargable": "warning",
+        "object-property": "error",
+        "print-statement": "warning",
+        "schema-qualify": "error",
+        "select-star": "error",
+        "semicolon-termination": "error",
+        "set-ansi": "off",
+        "set-nocount": "off",
+        "set-quoted-identifier": "off",
+        "set-transaction-isolation-level": "off",
+        "set-variable": "off",
+        "upper-lower": "error",
+        "unicode-string" : "error"
+    },
+	"plugins": {
+        "Higgs-plugin": "C:/jobs/CodePOC/TsqlLintPlugin/TsqlLintPlugin.dll"       
+    },
+    "compatability-level": 140
+}
